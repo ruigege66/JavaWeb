@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<c3p0-config>
+    <named-config name="qfedu">
+        <propertyname="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl" >jdbc:mysql:192.168.1.9:3306?encodingCharacter=utf8&amp;//</property>
+        <property name="user">root</property>
+        <property name="password">214214</property>
+        <property name="acquireIncrement">5</property>
+        <property name="initialPoolSize">20</property>
+        <property name="minPoolSize">10</property>
+        <property name="maxPoolSize">40</property>
+        <property name="maxStatement">0</property>
+        <property name="maxStatementPerConnection">5</property>
+    </named-config>
+    
+</c3p0-config>
