@@ -2,8 +2,8 @@
 
 <c3p0-config>
     <named-config name="qfedu">
-        <propertyname="driverClass">com.mysql.jdbc.Driver</property>
-        <property name="jdbcUrl" >jdbc:mysql:192.168.1.9:3306?encodingCharacter=utf8&amp;//</property>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl" >jdbc:mysql:192.168.1.9:3306?encodingCharacter=utf8&amp;</property>
         <property name="user">root</property>
         <property name="password">214214</property>
         <property name="acquireIncrement">5</property>
